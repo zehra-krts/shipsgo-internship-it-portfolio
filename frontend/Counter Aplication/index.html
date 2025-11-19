@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Counter App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Accessible Counter</h1>
+      <output id="count-output" aria-live="polite" aria-atomic="true"   aria-label="Current count">0</output>
+
+    <div id="controls">
+      <button id="btn-decrement" data-action="decrement" type="button" aria-label="Decrease count">−</button>
+      <button id="btn-increment" data-action="increment" type="button" aria-label="Increase count">+</button>
+     <button id="btn-reset" data-action="reset" type="button" aria-label="Reset count">Reset</button>
+    </div>
+
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

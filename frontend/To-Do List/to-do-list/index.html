@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do List</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>📝 To Do List</h1>
+
+            <div class="task-input">
+                <label for="new-task">Add New Task</label>
+                <input id="new-task" type="text" placeholder="Enter a task..." aria-label="Task description" />
+                <button id="btn-add" type="button">Add</button>
+            </div>
+
+            <ul id="task-list" aria-live="polite"></ul>
+            <p id="empty-state" class="empty-state">No tasks yet 💤</p>
+            <p id="toast" class="toast" role="status" aria-live="polite"></p>
+        </main>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

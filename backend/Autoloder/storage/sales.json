@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "car": "Mercedes G",
+        "price": 5000000,
+        "customer": "Baver",
+        "salesRep": "Sales Rep",
+        "paid": "paid",
+        "createdAt": "2025-09-23 07:14:59"
+    }
+]

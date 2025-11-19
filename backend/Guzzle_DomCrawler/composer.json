@@ -1,0 +1,14 @@
+{
+    "name": "zehra/task-0005",
+    "description": "IMDB Top 100 scraper with Guzzle + DomCrawler",
+    "require": {
+      "guzzlehttp/guzzle": "^7.10",
+      "symfony/dom-crawler": "^7.3",
+      "symfony/css-selector": "^7.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    }
+  }
